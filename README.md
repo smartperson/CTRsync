@@ -27,3 +27,4 @@ CTRsync requires libssh2 and a working build of mbedtls, which are currently onl
 ## Acknowledgements
 * nedwill, WinterMute, and others on #3dsdev for advice on improving SD performance.
 * smea, fincs, and others on #3dsdev for help with understanding threading in libctru better.
+* Drew Hess for the effective ring buffer implementation in C.
