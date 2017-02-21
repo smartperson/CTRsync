@@ -1,0 +1,20 @@
+/* Copy this config file and rename it to config.cfg in the /3ds/CTRsync/ folder.
+ * If CTRSync does not find a valid config file, it will recreate this example one.
+ */
+host = "192.168.1.1"    // Put your computer host here. It can be a domain name or IPv4 IP.
+port = 22               // If missing we will assume this as default.
+username = "your_user"
+
+private_key = "/3ds/CTRsync/id_3ds"     // There is no support for stored passwords or keyboard input.
+public_key = "/3ds/CTRsync/id_3ds.pub"  // ...and there probably never will be.
+
+// You can place up to 5 pairs of folders to synchronize in this list.
+// More than that may not display in the CTRsync UI.
+sync_pairs = (
+    {   local: "/JKSV";
+        remote: "/Users/your_user/Dropbox/3DS/saves";
+    },
+    {   local: "/luma/dumps";
+        remote: "/Users/your_user/Dropbox/3DS/luma_dumps";
+    }
+)
