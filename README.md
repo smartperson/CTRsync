@@ -1,7 +1,7 @@
 # CTRsync
 
 ## Why?
-I'm tired of launching sftpd and going to my desktop to download or upload common files. A few people asked for a way to automatically transfer their backed-up saves from JKSM. I like secure communications.
+I'm tired of launching ftpd and going to my desktop to download or upload common files. A few people asked for a way to automatically transfer their backed-up saves from JKSM. I like secure communications.
 
 ## Features
 * Automatically log in using an SSH keypair.
